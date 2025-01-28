@@ -1,0 +1,110 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #0c0404;
+}
+
+footer p {
+    margin: 0;
+}
+*/
+
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+.navbar {
+    background-color: #333; /* Dark grey navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White text for navbar links */
+}
+
+.nav-link.active {
+    color: #ff0000 !important; /* Red for active nav link */
+    font-weight: bold;
+}
+
+.bg-black {
+    background-color: #333 !important; /* Dark grey hero section */
+}
+
+.btn-light {
+    background-color: #ff0000 !important; /* Red button */
+    color: #fff !important;
+}
+
+.btn-light:hover {
+    background-color: #cc0000 !important; /* Darker red on hover */
+}
+
+.card {
+    background-color: #fff; /* White card background */
+    border: 1px solid #ccc; /* Light grey border */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-title {
+    color: #ff0000; /* Red card title */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ff0000 !important; /* Red carousel indicators */
+}
+
+footer {
+    background-color: #333; /* Dark grey footer */
+    color: #fff; /* White text for footer */
+}
+
+a {
+    color: #ff0000; /* Red links */
+}
+
+a:hover {
+    color: #cc0000; /* Darker red on hover */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #fb00ff !important; /* Bootstrap primary color*/
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: auto;
+}
+
+ /* Styling for the navigation bar */
+ .navbar .nav-link {
+     font-size: 1.2rem; /* Larger font size */
+     font-weight: bold; /* Bold text */
+     transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+ }
+
+ /* Hover effect for links */
+ .navbar .nav-link:hover {
+     transform: translateY(-3px); /* Slight upward movement */
+     color: #ff5733 !important; /* Change color on hover */
+ }
+
+ /* Active link styling */
+ .navbar .nav-link.active {
+     color: #ff5733 !important; /* Highlight the active link */
+     text-decoration: underline; /* Optional underline for active link */
+ }
